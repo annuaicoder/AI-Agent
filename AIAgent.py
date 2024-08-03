@@ -15,9 +15,10 @@ while (True):
     question = input("You: ")
 
     if (question.strip() == 'exit'):
+        print("Goodbye!")
         break
 
     response = chat.send_message(question)
     print("\n")
-    print(f"Bot (Exit To Quit): {response.text}")
+    print(f"Bot (exit to quit): {response.text}")
     print('\n')
