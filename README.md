@@ -15,8 +15,12 @@ source bin/activate
 # Move out of directory
 cd ..
 
-# Install google-generativeai
+# Install needed packages
 pip install google-generativeai
+pip install google
+
+# Install packages using shortcut
+pip install -r requirements.txt
 
 # Executing the program
 Run python AIAgent.py to execute the program
