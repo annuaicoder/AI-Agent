@@ -1,6 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "pip"
-    directory: "/" # Location of your requirements.txt
+    directory: "/" # Dependacy File
     schedule:
       interval: "weekly"
+    versioning-strategy: "increase" # Always bumps to the latest version
