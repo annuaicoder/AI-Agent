@@ -1,9 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/Users/anasmaryam/AI-Agent/requirements.txt" # Location of your package.json
-    schedule:
-      interval: "daily"
   - package-ecosystem: "pip"
     directory: "/" # Location of your requirements.txt
     schedule:
